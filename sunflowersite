@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunFlower Studio</title>
+  <style>
+    :root {
+      --amarelo: #ffbb00;
+      --verde-musgo: #646d2e;
+      --branco: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    body {
+      background-color: var(--branco);
+      color: var(--verde-musgo);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subtitle {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .camiseta {
+      max-width: 400px;
+      width: 100%;
+      border: 2px solid var(--verde-musgo);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .camiseta img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .preco {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      color: var(--amarelo);
+      font-weight: bold;
+    }
+
+    .descricao {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .botao-contato {
+      background-color: var(--verde-musgo);
+      color: var(--branco);
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SunFlower Studio</h1>
+    <p class="subtitle">Minimalismo em forma de arte</p>
+  </header>
+
+  <section class="camiseta">
+    <img src="https://raw.githubusercontent.com/MarceloAIAssets/sunflower-camiseta/main/camiseta-sunflower.jpg" alt="Camiseta SunFlower Studio">
+    <div class="preco">R$ 160,00</div>
+    <div class="descricao">
+      Oversized, 100% algodão penteado 30.1<br>
+      Feita artesanalmente com serigrafia.<br>
+      Edição limitada.
+    </div>
+    <a class="botao-contato" href="https://wa.me/5549988037488" target="_blank">Comprar via WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 SunFlower Studio
+  </footer>
+</body>
+</html>
